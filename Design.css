@@ -1,0 +1,27 @@
+*{
+    box-sizing:border-box;
+}
+
+
+.card{
+    box-shadow:  0 4px 8px 0 rgba(0,0,0,0.2);
+    background-color: whitesmoke;
+    padding: 16px;
+    height: 40%; 
+}
+
+.column {
+    float:left;
+    padding: 0 10px;
+    width: 25%;
+    margin-bottom: 20px;
+}
+
+/*.row {margin: 0 -15px; }*/
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
