@@ -32,6 +32,7 @@ body{
     font-family: 'Poppins', sans-serif;
     background: url(../img/wepik--2022512-16644.png);
     background-size: cover;
+    max-width: 600px;
 }
 
 
