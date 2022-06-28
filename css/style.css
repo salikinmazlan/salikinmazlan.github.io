@@ -372,16 +372,27 @@ button{
 
 /* ========== RESPONSIVE WEBSITE =========== #636FA4*/
 
-@media only screen and (max-width: 400px) {
-    /* For mobile phones: */
-    .ul, .intro, .intro1, .aboutme, .grid-container2 {
-      width: 100%;
+@media (max-width: 400px ){
+
+    body{
+        width: fit-content;
+        height: auto;
     }
 }
 
-@media only screen and (max-width: 700px) {
-    /* For mobile phones: */
-    .ul, .intro, .intro1, .aboutme, .grid-container2 {
-      width: 100%;
+
+@media (max-width: 500px ){
+
+    body{
+        width: fit-content;
+        height: auto;
+    }
+}
+
+@media (max-width: 1000px ){
+
+    body{
+        width: fit-content;
+        height: auto;
     }
 }
