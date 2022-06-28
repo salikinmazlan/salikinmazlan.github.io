@@ -27,7 +27,7 @@
 }
 
 body{
-    
+
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
@@ -35,7 +35,10 @@ body{
 
 html {
     scroll-behavior: smooth;
+   
 }
+
+
 
 /*============================= Blok navigation =============================================================================*/
 
@@ -129,7 +132,7 @@ li a:hover{
 }
 
 .grid-container3 hr{
-    width: 300px;
+    max-width: 300px;
     margin: auto;
     border: 1px solid #22223b;
 }
@@ -150,7 +153,7 @@ li a:hover{
 
 .card {
 
-    width: 200px;
+    max-width: 200px;
     height: 200px;
     margin: 20px 40px 20px 20px;
     padding: 0px;
@@ -392,3 +395,5 @@ button{
         height: auto;
     }
 }
+
+
